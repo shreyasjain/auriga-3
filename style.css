@@ -205,3 +205,22 @@ img{
     justify-content: space-between;
     color: grey;
 }
+
+@media(max-width:992px){
+/* message */
+.message-bar-2 {
+    margin-top: 30px;
+    display: grid;
+}
+}
+
+@media(max-width:768px){
+/* tabs */
+.tab-bar-left{
+    display: flex;
+    flex-direction: column;
+}
+.tab-bar-left a {
+    margin: 0;
+}
+}
