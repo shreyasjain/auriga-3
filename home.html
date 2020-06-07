@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Assignment</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading-bar">
+            <p><strong>Textify</strong> Because Text Messaging Rocks.</p>
+            <a href="">Logout</a>
+        </div>
+
+        <div class="title-bar">
+            <h1><strong>(+91)9649344770</strong></h1>
+            <a href="">What's this number?</a>
+        </div>
+
+        <div class="message-bar jumbotron">
+            <form action="">
+                <div class="message-bar-1">
+                    <label for="">To: </label>
+                    <select name="" id=""></select>
+                    <span>Phone number or name </span>
+                </div>
+                <div class="message-bar-2">
+                    <label for="">Message: </label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="message-bar-3">
+                    <a href="">Attatch an image to this message.</a>
+                </div>
+                <div class="message-bar-4">
+                    <button>Send Text Message</button>
+                    <span>Or, <span style="text-decoration: underline;">schedule it for later delivery.</span></span>
+                </div>
+            </form>
+        </div>
+
+        <div class="tab-bar">
+            <div class="tab-bar-left">
+                <a id="a1" href="" onclick="tabFunctioning(event,'a1','data-1','data')">Recent Conversations</a>
+                <a id="a2" href="" onclick="tabFunctioning(event,'a2','data-2','data')">All Conversations</a>
+                <a id="a3" href="" onclick="tabFunctioning(event,'a3','data-3','data')">Photos</a>
+            </div>
+            <div class="tab-bar-right">
+                <a href="">Change Password</a>
+            </div>
+        </div>
+
+        <div class="data-bar ">
+            <div class="data-1 data" id="data-1">
+                <div class="data-bar-1">
+                    <div class="data-bar-1-left">
+                        <h2>(+91)7976117625</h2>
+                        <span><u>Set a name for this number.</u></span>
+                    </div>
+                    <div class="data-bar-1-right">
+                        <h2><u>View All Conversations >></u></h2>
+                    </div>
+                </div>
+
+                <div class="data-bar-2">
+                    <h5>New Text Message:</h5>
+                </div>
+
+                <div class="data-bar-3">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <button><u>Send Message</u></button>
+                </div>
+
+                <div class="data-bar-4">
+                    <p><u>Attach a photo </u>or <u>schedule for later delivery.</u></p>
+                </div>
+
+                <div class="data-bar-5">
+                    <p>You have <strong>1 message scheduled</strong> for delivery. <u>Click here to view them.</u></p>
+                </div>
+
+                <div class="data-bar-6">
+                    <div class="data-bar-6-in">
+                        <h5>(+91)7976117625</h5>
+                        <span style="margin-left: 5px;color: gray;">Today</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium laboriosam nobis facilis
+                        nesciunt ratione doloremque, ipsa vero qui? Repellendus nostrum provident quod! Reprehenderit
+                        quos
+                        sunt aliquid eum perferendis pariatur modi.</p>
+
+                </div>
+
+                <div class="data-bar-7">
+                    <div class="data-bar-7-in">
+                        <h5>(+91)7976117625</h5>
+                        <span style="margin-left: 5px;color: gray;">Today</span>
+                    </div>
+                    <div class="data-bar-7-out">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium laboriosam nobis facilis
+                            nesciunt ratione doloremque, ipsa vero qui? Repellendus nostrum provident quod!
+                            Reprehenderit
+                            quos
+                            sunt aliquid eum perferendis pariatur modi.</p>
+                    </div>
+                </div>
+
+                <div class="data-bar-6">
+                    <div class="data-bar-6-in">
+                        <h5>(+91)7976117625</h5>
+                        <span style="margin-left: 5px;color: gray;">Today</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium laboriosam nobis facilis
+                        nesciunt ratione doloremque, ipsa vero qui? Repellendus nostrum provident quod! Reprehenderit
+                        quos
+                        sunt aliquid eum perferendis pariatur modi.</p>
+
+                </div>
+
+                <div class="data-bar-7">
+                    <div class="data-bar-7-in">
+                        <h5>(+91)7976117625</h5>
+                        <span style="margin-left: 5px;color: gray;">Today</span>
+                    </div>
+                    <div class="data-bar-7-out">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium laboriosam nobis facilis
+                            nesciunt ratione doloremque, ipsa vero qui? Repellendus nostrum provident quod!
+                            Reprehenderit
+                            quos
+                            sunt aliquid eum perferendis pariatur modi.</p>
+                    </div>
+                </div>
+
+                <div class="data-bar-6">
+                    <div class="data-bar-6-in">
+                        <h5>(+91)7976117625</h5>
+                        <span style="margin-left: 5px;color: gray;">Today</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium laboriosam nobis facilis
+                        nesciunt ratione doloremque, ipsa vero qui? Repellendus nostrum provident quod! Reprehenderit
+                        quos
+                        sunt aliquid eum perferendis pariatur modi.</p>
+
+                </div>
+
+                <div class="data-bar-7">
+                    <div class="data-bar-7-in">
+                        <h5>(+91)7976117625</h5>
+                        <span style="margin-left: 5px;color: gray;">Today</span>
+                    </div>
+                    <div class="data-bar-7-out">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium laboriosam nobis facilis
+                            nesciunt ratione doloremque, ipsa vero qui? Repellendus nostrum provident quod!
+                            Reprehenderit
+                            quos
+                            sunt aliquid eum perferendis pariatur modi.</p>
+                    </div>
+                </div>
+
+                <div class="data-bar-8">
+                    <h2><u>Load More Message</u></h2>
+                    <p>There are 251 more messages in this conversation.</p>
+                </div>
+            </div>
+
+            <div class="data-2 data" id="data-2">
+                <h1>Top Conversations</h1>
+                <div class="data-2-out">
+                    <div class="data-2-in">
+                        <h3><u>Sarah Kelly</u></h3>
+                        <p>233 Messages</p>
+                    </div>
+                    <div>
+                        <p class="data-2-p"><span class="badge badge-dark">NEW</span> Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Natus velit praesentium asperiores
+                            fuga, laborum ea explicabo animi dolor corporis quibusdam exercitationem possimus officiis
+                            deserunt qui. Nostrum aliquam dolorum velit rem?</p>
+                    </div>
+                </div>
+
+                <div class="data-2-out">
+                    <div class="data-2-in">
+                        <h3><u>Sarah Kelly</u></h3>
+                        <p>233 Messages</p>
+                    </div>
+                    <div>
+                        <p class="data-2-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus velit
+                            praesentium asperiores
+                            fuga, laborum ea explicabo animi dolor corporis quibusdam exercitationem possimus officiis
+                            deserunt qui. Nostrum aliquam dolorum velit rem?</p>
+                    </div>
+                </div>
+
+                <div class="data-2-out">
+                    <div class="data-2-in">
+                        <h3><u>Sarah Kelly</u></h3>
+                        <p>233 Messages</p>
+                    </div>
+                    <div>
+                        <p class="data-2-p"><span class="badge badge-dark">NEW</span> Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Natus velit praesentium asperiores
+                            fuga, laborum ea explicabo animi dolor corporis quibusdam exercitationem possimus officiis
+                            deserunt qui. Nostrum aliquam dolorum velit rem?</p>
+                    </div>
+                </div>
+
+                <h1>All Conversations</h1>
+                <div class="data-2-out">
+                    <div class="data-2-in">
+                        <h3><u>Sarah Kelly</u></h3>
+                        <p>233 Messages</p>
+                    </div>
+                    <div>
+                        <p class="data-2-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus velit
+                            praesentium asperiores
+                            fuga, laborum ea explicabo animi dolor corporis quibusdam exercitationem possimus officiis
+                            deserunt qui. Nostrum aliquam dolorum velit rem?</p>
+                    </div>
+                </div>
+                <div class="data-2-out">
+                    <div class="data-2-in">
+                        <h3><u>Sarah Kelly</u></h3>
+                        <p>233 Messages</p>
+                    </div>
+                    <div>
+                        <p class="data-2-p"><span class="badge badge-dark">NEW</span> Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Natus velit praesentium asperiores
+                            fuga, laborum ea explicabo animi dolor corporis quibusdam exercitationem possimus officiis
+                            deserunt qui. Nostrum aliquam dolorum velit rem?</p>
+                    </div>
+                </div>
+                <div class="data-2-out">
+                    <div class="data-2-in">
+                        <h3><u>Sarah Kelly</u></h3>
+                        <p>233 Messages</p>
+                    </div>
+                    <div>
+                        <p class="data-2-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus velit
+                            praesentium asperiores
+                            fuga, laborum ea explicabo animi dolor corporis quibusdam exercitationem possimus officiis
+                            deserunt qui. Nostrum aliquam dolorum velit rem?</p>
+                    </div>
+                </div>
+                <div class="data-2-out">
+                    <div class="data-2-in">
+                        <h3><u>Sarah Kelly</u></h3>
+                        <p>233 Messages</p>
+                    </div>
+                    <div>
+                        <p class="data-2-p"><span class="badge badge-dark">NEW</span> Lorem ipsum dolor, sit amet
+                            consectetur adipisicing elit. Natus velit praesentium asperiores
+                            fuga, laborum ea explicabo animi dolor corporis quibusdam exercitationem possimus officiis
+                            deserunt qui. Nostrum aliquam dolorum velit rem?</p>
+                    </div>
+                </div>
+                <div class="data-2-out">
+                    <div class="data-2-in">
+                        <h3><u>Sarah Kelly</u></h3>
+                        <p>233 Messages</p>
+                    </div>
+                    <div>
+                        <p class="data-2-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus velit
+                            praesentium asperiores
+                            fuga, laborum ea explicabo animi dolor corporis quibusdam exercitationem possimus officiis
+                            deserunt qui. Nostrum aliquam dolorum velit rem?</p>
+                    </div>
+                </div>
+                <div class="data-2-out">
+                    <div class="data-2-in">
+                        <h3><u>Sarah Kelly</u></h3>
+                        <p>233 Messages</p>
+                    </div>
+                    <div>
+                        <p class="data-2-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus velit
+                            praesentium asperiores
+                            fuga, laborum ea explicabo animi dolor corporis quibusdam exercitationem possimus officiis
+                            deserunt qui. Nostrum aliquam dolorum velit rem?</p>
+                    </div>
+                </div>
+                <div class="data-2-out">
+                    <div class="data-2-in">
+                        <h3><u>Sarah Kelly</u></h3>
+                        <p>233 Messages</p>
+                    </div>
+                    <div>
+                        <p class="data-2-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus velit
+                            praesentium asperiores
+                            fuga, laborum ea explicabo animi dolor corporis quibusdam exercitationem possimus officiis
+                            deserunt qui. Nostrum aliquam dolorum velit rem?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="data-3 data" id="data-3"> 
+                <h1 style="border-bottom: 1px solid gray;">Photos From All Conversations</h1>
+                <div class="data-3-child">
+                    <div class="data-3-flex">
+                        <div class="my-card">
+                            <img src="./user-male.png" alt="">
+                            <h5><strong>(+91)9649344770</strong></h5>
+                            <p>Sent on 19/09/1998</p>
+                        </div>
+                    </div>
+                    <div class="data-3-flex">
+                        <div class="my-card">
+                            <img src="./user-male.png" alt="">
+                            <h5><strong>(+91)9649344770</strong></h5>
+                            <p>Sent on 19/09/1998</p>
+                        </div>
+                    </div>
+                    <div class="data-3-flex">
+                        <div class="my-card">
+                            <img src="./user-male.png" alt="">
+                            <h5><strong>(+91)9649344770</strong></h5>
+                            <p>Sent on 19/09/1998</p>
+                        </div>
+                    </div>
+                    <div class="data-3-flex">
+                        <div class="my-card">
+                            <img src="./user-male.png" alt="">
+                            <h5><strong>(+91)9649344770</strong></h5>
+                            <p>Sent on 19/09/1998</p>
+                        </div>
+                    </div>
+                    <div class="data-3-flex">
+                        <div class="my-card">
+                            <img src="./user-male.png" alt="">
+                            <h5><strong>(+91)9649344770</strong></h5>
+                            <p>Sent on 19/09/1998</p>
+                        </div>
+                    </div>
+                    <div class="data-3-flex">
+                        <div class="my-card">
+                            <img src="./user-male.png" alt="">
+                            <h5><strong>(+91)9649344770</strong></h5>
+                            <p>Sent on 19/09/1998</p>
+                        </div>
+                    </div>
+                    <div class="data-3-flex">
+                        <div class="my-card">
+                            <img src="./user-male.png" alt="">
+                            <h5><strong>(+91)9649344770</strong></h5>
+                            <p>Sent on 19/09/1998</p>
+                        </div>
+                    </div>
+                    <div class="data-3-flex">
+                        <div class="my-card">
+                            <img src="./user-male.png" alt="">
+                            <h5><strong>(+91)9649344770</strong></h5>
+                            <p>Sent on 19/09/1998</p>
+                        </div>
+                    </div>
+                    <div class="data-3-flex">
+                        <div class="my-card">
+                            <img src="./user-male.png" alt="">
+                            <h5><strong>(+91)9649344770</strong></h5>
+                            <p>Sent on 19/09/1998</p>
+                        </div>
+                    </div>
+                    <div class="data-3-flex">
+                        <div class="my-card">
+                            <img src="./user-male.png" alt="">
+                            <h5><strong>(+91)9649344770</strong></h5>
+                            <p>Sent on 19/09/1998</p>
+                        </div>
+                    </div>
+                    <div class="data-3-flex">
+                        <div class="my-card">
+                            <img src="./user-male.png" alt="">
+                            <h5><strong>(+91)9649344770</strong></h5>
+                            <p>Sent on 19/09/1998</p>
+                        </div>
+                    </div>
+                    <div class="data-3-flex">
+                        <div class="my-card">
+                            <img src="./user-male.png" alt="">
+                            <h5><strong>(+91)9649344770</strong></h5>
+                            <p>Sent on 19/09/1998</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="data-bar-8">
+                    <h2><u>Load More Photos</u></h2>
+                    <p>There are 91 Photos From 23 Conversations.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+                <span>Textify @2011</span>
+                <span>All data on the server is 100% safe.</span>
+            </div>
+    </div>
+
+    
+
+    <script src="app.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
